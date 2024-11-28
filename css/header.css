@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 15px;
+
+
+
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 200px;
+    float: left;
+
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 15px 35px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+header nav ul li a:hover {
+    color: red;
+}

@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box1 {
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    font-size: x-large;
+
+    margin-left: 100px;
+    margin-top: 50px;
+ 
+    margin: 30px;
+    margin: 20px 40px;
+    margin: 15px 30px 45px;
+    margin: 8px 16px 20px 30px;
+
+    padding-left: 10px;
+    padding-top: 20px;
+    padding: 10px 20px 30px;
+
+    border: 20px solid black;
+    float: left;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    clear: both;
+}

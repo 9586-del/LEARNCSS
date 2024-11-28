@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"Roboto-Regular" ;
+    src: url(../font/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+.container{
+   
+    width: 80%;
+    margin: 0 auto;
+}
+.hleft {
+    float: left;
+}
+.hright {
+    float: right;
+}
+.logo {
+    width: 200px;
+    float: left;
+}
+.hleft nav  {
+ 
+    float: left;
+    margin: 3px 32px;
+    
+
+}
+.hleft nav ul li{
+    
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 20px 20px;
+    
+}
+.hleft nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Roboto-Regular";
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+}
+.hleft nav ul li a:hover {
+    color: rgb(39, 119, 198);
+}
+.hright nav {
+    float: right;
+    margin: 3px 32px;
+}
+.hright nav ul li{
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 20px 20px;
+}
+.hright nav ul li a {
+    text-decoration: none;   font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: 400;
+}
+.postb{
+    text-decoration: none;   font-size: 20px;
+    font-family: "Roboto-Regular";
+    color: white;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: #005ea6;
+    float: left;
+    margin: 10px 0px;}
+.postb:hover{
+    background-color: rgb(59, 59, 130);
+}
+.head {
+position: sticky;
+    top: 0;
+   
+}
+.bigbox{
+    position: relative;
+    width: 1636px;
+    height: 1000px;
+    background-color: yellow;
+    top: 200px;
+}
+.imageone {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imagetwo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.imagethree {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.imagefour{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.circle{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+}
+.uparrow {
+    margin: 18px 1px 1px 18px;
+}

@@ -1,0 +1,18 @@
+.box1{
+    width: 600px;
+    height:500px;
+    background-image: url(../images/client-desktop.webp);
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    
+}
+.box2{
+    width: 600px;
+    height: 500px;
+    background-image: url(../images/ai-agent-avatar.webp);
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

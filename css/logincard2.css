@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'Segoe UI';
+    src: url(../font/Segoe\ UI.ttf);
+}
+.mainb {
+    width: 600px;
+    height: 500px;
+
+    margin: auto;
+}
+.box1 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    font-family: 'Segoe UI';
+}
+.box2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+}
+.image {
+    width: 100%;
+    height: 100%;
+}
+.heading {
+    text-align: center;
+    margin: 50px 50px 0px 50px;
+}
+.abs {
+    text-align: center;
+    font-size: 7px;
+    margin-bottom: 60px;
+    color: grey;
+}
+.name {
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    width: 75%;
+}
+.email {
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    width: 75%;
+}
+.pass {
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    width: 75%;
+}
+.submit {
+    padding: 10px 85px 10px 100px;
+    margin-left: 20px;
+    background-color:lightblue ;
+    margin-bottom: 15px;
+}
+.terms {
+    text-align: center;
+    font-size: 7px;
+    margin-bottom: 60px;
+    color: grey;
+}

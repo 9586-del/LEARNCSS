@@ -1,0 +1,110 @@
+.main-box{
+    width: 80%;
+    height: 550px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px 10px;
+   
+}
+.box1{
+    width: 150px;
+    height: 200px;
+    background-color: brown;
+}
+.box3{
+    width: 170px;
+    height: 190px;
+    background-color: pink;
+}
+h2{
+    text-align: center  ;
+}
+.box2{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+}
+.wrapping{
+    width: 80%;
+    height: 550px;
+    border: 2px solid black;
+    margin: 0 auto;
+    flex-wrap:wrap;
+}
+.jc-c{
+    justify-content: center;
+}
+.jc-e{
+    justify-content: flex-end;
+}
+.jc-s{
+    justify-content: flex-start;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.jc-sa{
+    justify-content: space-around;
+}
+.jc-se{
+    justify-content: space-evenly;
+}
+.ai-s{
+    align-items: flex-start;
+}
+.ai-sb{
+    align-items: center;
+}
+.ai-e{
+    align-items: flex-end;
+}
+.ac-st{
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.ac-bt{
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.ac-e{
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.ac-sa{
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.ac-se{
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+.row-gap{
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.column-gap{
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+.fd-g{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.as-end{
+    align-self: flex-end;
+}
+.as-center{
+    align-self: center;
+}
+.fg{
+    flex-grow: 1;
+}
+.fg1{
+    flex-grow: 1;
+}
+.fg2{
+    flex-grow: 2;
+}

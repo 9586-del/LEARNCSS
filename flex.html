@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/flex.css">
+    <title>flex</title>
+</head>
+
+<body>
+    <!-- <h2>Flex Property</h2>
+    <div class="main-box">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <h2>Flex wrapping</h2>
+    <div class="main-box wrapping">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box1">3</div>
+        <div class="box2">4</div>
+        <div class="box1">5</div>
+        <div class="box2">6</div>
+        <div class="box1">7</div>
+        <div class="box2">8</div>
+        <div class="box1">9</div>
+        <div class="box2">10</div>
+        <div class="box1">11</div>
+        <div class="box2">12</div>
+        <div class="box1">13</div>
+    </div>
+
+    <h2>justify content(main axis)(center)</h2>
+    <div class="main-box jc-c">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    <h2>justify content(main axis)(end)</h2>
+    <div class="main-box jc-e">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    <h2>justify content(main axis)(start)</h2>
+    <div class="main-box jc-s">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    <h2>justify content(main axis)(space between)</h2>
+    <div class="main-box jc-sb">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    <h2>justify content(main axis)(space around)</h2>
+    <div class="main-box jc-sa">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    <h2>justify content(main axis)(space evenly)</h2>
+    <div class="main-box jc-se">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    <h2>align-items(cross-axis)(baseline)start</h2>
+    <div class="main-box ai-s">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    <h2>align-items(cross-axis)(baseline)space-between</h2>
+    <div class="main-box ai-sb">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    
+    <h2>align-items(cross-axis)(baseline)end</h2>
+    <div class="main-box ai-e">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+    </div>
+
+    <h2>align-content(cross-axis)(parent box)start</h2>
+    <div class="main-box ac-st">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box1">3</div>
+        <div class="box2">4</div>
+        <div class="box1">5</div>
+        <div class="box2">6</div>
+        <div class="box1">7</div>
+        <div class="box2">8</div>
+        <div class="box1">9</div>
+        <div class="box2">10</div>
+        <div class="box1">11</div>
+    </div>
+
+    <h2>align-content(cross-axis)(parent box)between</h2>
+    <div class="main-box ac-bt">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box1">3</div>
+        <div class="box2">4</div>
+        <div class="box1">5</div>
+        <div class="box2">6</div>
+        <div class="box1">7</div>
+        <div class="box2">8</div>
+        <div class="box1">9</div>
+        <div class="box2">10</div>
+        <div class="box1">11</div>
+        
+    </div>
+
+    <h2>align-content(cross-axis)(parent box)end</h2>
+    <div class="main-box ac-e">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box1">3</div>
+        <div class="box2">4</div>
+        <div class="box1">5</div>
+      
+        
+    </div>
+
+    <h2>align-content(cross-axis)(parent box)space around</h2>
+    <div class="main-box ac-sa">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box1">3</div>
+        <div class="box2">4</div>
+        <div class="box1">5</div><div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box1">3</div>
+        <div class="box2">4</div>
+        <div class="box1">5</div>
+      
+        
+    </div>
+
+    <h2>align-content(cross-axis)(parent box)space evenly</h2>
+    <div class="main-box ac-se">
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box1">3</div>
+        <div class="box2">4</div>
+        <div class="box1">5</div>
+        <div class="box1">1</div>
+        <div class="box2">2</div>
+        <div class="box1">3</div>
+        <div class="box2">4</div>
+        <div class="box1">5</div>
+        
+    </div>
+    <h2>row-gap</h2>
+    <div class="main-box row-gap">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        </div>
+
+        <h2>column-gap</h2>
+        <div class="main-box column-gap">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            </div>
+
+            
+        <h2>flex-direction</h2>
+        <div class="main-box fd-g">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            
+            </div> -->
+        <h2>Child Property</h2>
+        <h2>align-self:flex-end</h2>
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2 as-end"></div>
+            <div class="box3"></div>
+        </div>
+        <h2>align-self:center</h2>
+
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2 as-center"></div>
+            <div class="box3"></div>
+        </div>
+        <h2>align-self:flex-start {bydefault}</h2>
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+        <h2>flex-grow:1</h2>
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2 fg"></div>
+            <div class="box3"></div>
+        </div>
+        <h2>flex-grow:2</h2>
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2 fg"></div>
+            <div class="box3 fg"></div>
+        </div>
+        <h2>flex-grow:3</h2>
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2 fg1"></div>
+            <div class="box3 fg2"></div>
+        </div>
+        <h2>flex shrink</h2>
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+        <!-- if div"s number is increase by default they are shrink -->
+        <h2>shrink 2 times</h2>
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3" style="flex-shrink: 2;"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+
+        <h2>shrink 3 times</h2>
+        <div class="main-box">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3" style="flex-shrink: 3;"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            <div class="box3"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+            
+            
+        </div>
+        <h2>order</h2>
+        <div class="main-box">
+        <div class="box1">1</div>
+        <div class="box2" style="order: 14;">2</div>
+        <div class="box3">3</div>
+        <div class="box1">4</div>
+        <div class="box2">5</div>
+        <div class="box3" style="order: -1;">6</div>
+        <div class="box1">8</div>
+        <div class="box2">9</div>
+        <div class="box3">10</div>
+        <div class="box1">11</div>
+        <div class="box2">12</div>
+        <div class="box3">13</div>
+        </div>
+
+</body>
+
+</html>

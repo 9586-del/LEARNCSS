@@ -1,0 +1,54 @@
+.demo1:link {
+    color: yellow;
+}
+
+.demo1:hover {
+    color: red;
+}
+
+.demo1:active {
+    color: green;
+}
+
+.demo1:visited {
+    color: blueviolet;
+}
+
+ul li:first-child a {
+    color: red;
+}
+
+ul li:last-child a {
+    color: yellow;
+
+}
+
+ul li:nth-child(3) a {
+    color: green;
+}
+
+p i:first-child{
+    color: red;
+}
+p:first-child i{
+    color: yellow;
+}
+input:focus{
+    background-color: green;
+}
+.logo h1::first-letter{
+    color: red;
+    font-size: 60px;
+}
+.logo p::first-line{
+    color: blue;
+}
+.logo p::first-letter{
+    color: red;
+}
+h2::before{
+    content: '**';
+}
+h2::after{
+    content:'--'
+}

@@ -1,0 +1,46 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red
+}
+.sta-box{
+    position: static;
+    right: 200px;
+    left: 500px;
+    top: 50px;
+    bottom: 500px;
+}
+.rel-box{
+    position: relative;
+    left: 200px;
+    right: 200px;
+    top: 50px;
+    bottom: 100px;
+}
+.abs-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.parent {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    
+}
+.rel-abs {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.fix-box{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.sticky{
+    position: sticky;
+    top:20px;
+}

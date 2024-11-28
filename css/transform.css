@@ -1,0 +1,35 @@
+.box{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    overflow: hidden;
+    margin: 0 auto;
+    perspective: 1000px;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s;
+    object-position: center center;
+    
+
+}
+.scalei:hover img{
+    transform: scale(1.5,1.5);
+    cursor: pointer;
+}
+
+.transd:hover img{
+    transform: translate(20px,5px);
+    cursor: pointer;
+}
+.skewd:hover img{
+    transform: skew(-20deg);
+}
+.rotated:hover img{
+    transform: rotate(20deg);
+}
+.rotatexd:hover img{
+    transform: rotatex(20deg);
+}

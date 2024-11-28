@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/submenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Submenu</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images\Bitkhanan-h.png" alt="">
+            </a>
+        
+            <nav>
+                <i class="fa-solid fa-bars" onclick="toogleMenu()"></i>
+            <ul id="menu">
+                <i class="fa-solid fa-xmark" onclick="toogleMenu()"></i>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">
+                    Product
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Toys</a></li>
+                        <li>
+                            <a href="#">Mobiles</a>
+                            <ul class="subsubmenu">
+                                <li><a href="#">vivo</a></li>
+                                <li><a href="#">oppo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">fashion</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <script>
+        function toogleMenu() {
+            document.getElementById("menu").classList.toggle("showHide")
+        }
+    </script>
+</body>
+</html>

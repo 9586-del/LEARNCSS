@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bigdiv{
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+.leftd{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(168, 43, 66);
+    float: left;
+    position: relative;
+
+}
+.rightd{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    font-family: sans-serif;
+}
+.leftd img{
+    width: 160%;
+    height: 80%;
+    position: absolute;
+    left: -130px;
+    
+}
+h1{
+    margin: 23px 58px;
+    color: rgb(168, 43, 66);
+    
+}
+.running{
+    font-size: 12px;
+    margin-left: 58px;
+}
+.info{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+.color{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.col{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: -4px;
+  
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.price{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(168, 43, 66);
+
+}
+.button{
+    background-color: rgb(168, 43, 66);
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 16px;
+    border-radius: 20px;
+}
+.price-buy{
+    margin-top: 50px;
+    margin-left: 20px;
+}

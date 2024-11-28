@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.hleft {
+    float: left;
+}
+.hright {
+    float: right;
+}
+.logo {
+    width: 260px;
+    float: left;
+}
+header .hleft nav {
+    list-style: none;
+    float:left;
+}
+header nav ul li{
+    text-transform: capitalize;
+    list-style: none;
+    display: inline-block;
+    margin: 29px 13px;
+   
+
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(86, 80, 80);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+header nav ul li a:hover {
+    color: blue;
+
+}
+.button{
+    float: right;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 3px;
+    background-color: rgb(168, 27, 27);
+    color: white;
+    margin-top: 17px;
+    
+   
+    font-size: 17px;
+  
+}
+header .hright nav {
+    float: left;
+   
+} 
+.button:hover {
+    background-color: blue;
+}
+header .hright ul{
+    float:left;
+}

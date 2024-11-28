@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Mona-Sans';
+    src: url(../font/Mona-Sans.ttf);
+}
+
+body {
+    font-family: 'Mona-Sans';
+    
+}
+
+
+
+
+.mbox {
+    width: 180px;
+    height: 250px;
+    margin: auto;
+   border-radius:5px ;
+    background-color: lightslategray;
+
+}
+
+h4 {
+    text-align: center;
+    margin: 15px;
+    padding-top: 15px;
+}
+
+
+input {
+    padding: 3px;
+    font-size: 8px;
+}
+
+.Login {
+    margin: 20px;
+    padding: 5px 55px;
+}
+
+.pass {
+    margin: 0px 20px 0px 20px;
+    padding-right: 30px;
+}
+
+.email {
+    margin: 0px 20px 0px 20px;
+    padding-right: 30px;
+}
+
+.user {
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.password {
+    font-size: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.a {
+    text-decoration: none;
+    background-color: rgb(85, 75, 75);
+    font-size: 9px;
+    padding: 5px 8px;
+    margin-left:20px;
+    color: white;
+}
+.b {
+    text-decoration: none;
+    background-color: rgb(85, 75, 75);
+    font-size: 9px;
+    padding:5px 8px;
+    margin-left: 5px;
+    color: white;
+}
